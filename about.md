@@ -11,4 +11,4 @@ I am a huge synth nerd, something which must have started when I started listeni
 # \# About this site
 This site is a static site hosted on github-pages and is rendered using Jekyll. I can make new posts, tweaks, and edits from my own computer and push them to the repo. I see this as a more convenient method than using a much larger site builder website.
 
-The theme is a fork of the Jekyll-Console theme
+The theme is a fork of the Jekyll-Console theme.
