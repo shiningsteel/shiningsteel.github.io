@@ -15,7 +15,7 @@ $container-max-width:  768px !default;
  * Global
  */
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
+h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--h1-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
@@ -34,11 +34,19 @@ footer { margin-bottom: 20px; }
 /**
   * Title
  */
-.headerTitle {
+.header-title {
     font-family: $base-font-family;
+    font-size: 36px;
+    font-weight: bold;
     text-align: center;
-    font-size: 24px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    text-align: center;
 }
 
 /**
@@ -52,12 +60,12 @@ footer { margin-bottom: 20px; }
  */
 :not(.menu) > ul { list-style: none;  padding-left: 0; }
 :not(.menu) > ul { list-style-type: none; }
-:not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
 
 /**
  * Header/Navigation
  */
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
+.menu p {text-align: left; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
