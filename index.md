@@ -3,10 +3,10 @@ title: /~
 layout: home
 permalink: /
 ---
-# // Dale Johnson
+# Dale Johnson
 Otherwise known as Metal Face due to how I can pull a fierce face whilst heavy metal plays.
 
-# // Website Usage
+# Website Usage
 This website emulates the look and feel of a UNIX / Linux style terminal, something that really resonates with me. You can navigate the site using the links at the top right, or via underlined hyperlinks.
 
-# // Recent Posts
+# Recent Posts
