@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>Projects</h1>
-{%- if site.categories.projects.size > 0 -%}
+<h1>Reviews</h1>
+{%- if site.categories.reviews.size > 0 -%}
   <ul>
-    {%- for post in site.categories.projects -%}
+    {%- for post in site.categories.reviews -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> : {{post.summary}}
@@ -13,5 +13,5 @@ layout: default
     {%- endfor -%}
   </ul>
 {%- else -%}
-    No projects defined
+  No reviews defined
 {%- endif -%}

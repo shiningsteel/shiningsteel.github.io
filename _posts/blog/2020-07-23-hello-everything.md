@@ -2,6 +2,7 @@
 layout: post
 title: ./init
 summary: echo "Hello Everything"
+author: Dale Johnson
 ---
 
 # ./init
